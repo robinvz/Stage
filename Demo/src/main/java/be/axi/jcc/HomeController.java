@@ -31,9 +31,16 @@ public class HomeController {
 	
 	@RequestMapping(value = "/contact", method = RequestMethod.GET)
 	public String contact(Locale locale) {
-		logger.info("About! The client locale is {}.", locale);
+		logger.info("Contact! The client locale is {}.", locale);
 		
 		return "contact";
+	}
+	
+	@RequestMapping(value = "/table", method = RequestMethod.GET)
+	public String table(Locale locale) {
+		logger.info("Table! The client locale is {}.", locale);
+		
+		return "table";
 	}
 	
 }

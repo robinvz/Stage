@@ -65,10 +65,5 @@
 	<!-- container-fluid -->
 
 	<jsp:include page='../views/partial/footer.jsp' />
-	<script>
-		$(function() {
-			$('a[href="' + this.location.pathname + '"]').parent().addClass('active');
-		});
-	</script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page session="false"%>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
 <head>
 <meta charset="utf-8">
 <title>Home</title>
@@ -27,7 +27,9 @@
 					src="${pageContext.request.contextPath}/resources/img/axi.png">
 			</div>
 			<div class="span10">
-				<h1>Welkom beste vriend</h1>
+				<h1>Welcome {{yourName}}</h1>
+				
+				<label>Name: </label><input type="text" ng-model="yourName" placeholder="Enter your name here">
 
 				<form class="form-horizontal" id="registerHere" method="post" action="register">
 					<fieldset>
@@ -63,6 +65,7 @@
 
 					</fieldset>
 				</form>
+				<br><br><br><br><br><br><br><br>
 			</div>
 			<!-- /span10 -->
 		</div>
@@ -73,7 +76,6 @@
 	<jsp:include page='../views/partial/footer.jsp' />
 	<script>
 		$(function() {
-			$('a[href="' + this.location.pathname + '"]').parent().addClass('active');
 			$("#user_name, #user_email").popover();
 		});
 	</script>
