@@ -739,7 +739,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: inherit;
+  font-family: AldoTheApache;
   font-weight: bold;
   line-height: 20px;
   color: inherit;
@@ -1044,6 +1044,7 @@ legend {
   color: #333333;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
+  font-family: AldoTheApache;
 }
 
 legend small {

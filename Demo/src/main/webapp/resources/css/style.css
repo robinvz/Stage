@@ -17,3 +17,18 @@ body {
   text-decoration: line-through;
   color: grey;
 }
+
+@font-face {
+	font-family: RocksDeath;
+	src: url('RocksDeath.ttf');
+}
+
+@font-face {
+	font-family: AldoTheApache;
+	src: url('AldoTheApache.ttf');
+}
+/*   
+p {
+	font-family: 'Share Tech Mono', sans-serif;
+}
+*/

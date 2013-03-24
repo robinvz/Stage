@@ -13,6 +13,9 @@
 	href="${pageContext.request.contextPath}/resources/css/bootstrap-responsive.css">
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/resources/css/style.css">
+<link rel='stylesheet' type='text/css'
+	href='http://fonts.googleapis.com/css?family=Share+Tech+Mono'>
+<link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" type="image/x-icon"
 	href="${pageContext.request.contextPath}/resources/img/favicon.ico">
 

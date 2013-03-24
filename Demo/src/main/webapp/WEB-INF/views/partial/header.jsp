@@ -7,9 +7,9 @@
 				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="brand" href="#">Java Competence Center</a>
+			<a class="brand" href="#" style="font-family: RocksDeath">Java Competence Center</a>
 			<div class="nav-collapse collapse">
-				<ul class="nav">
+				<ul class="nav" style="font-family: AldoTheApache">
 					<li class=""><a href="/jcc/"> <i class="icon-home"></i>
 							Home
 					</a></li>
