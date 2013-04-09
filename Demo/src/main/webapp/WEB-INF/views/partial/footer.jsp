@@ -1,6 +1,6 @@
 
 <footer>
-	<div class="container">
+	<div class="container container-fixed-bottom">
 		All rights reserved
 		<p class="pull-right">
 			<a href="#" target="_self">Back to top</a>

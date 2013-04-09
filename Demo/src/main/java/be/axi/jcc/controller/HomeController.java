@@ -1,4 +1,4 @@
-package be.axi.jcc;
+package be.axi.jcc.controller;
 
 import java.util.Locale;
 
